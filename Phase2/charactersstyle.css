@@ -1,0 +1,42 @@
+body{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+.menu{
+	height: 10vh;
+	width: 100%;
+	background-color: orange;
+}
+
+.main{
+	height: 90vh;
+	width: 100%;
+	background-color: blue;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.character{
+	height: calc(100%/2);
+	width: calc(100%/3);
+}
+
+.green{
+	background-color: green;
+}
+
+.white {
+	background-color: white;
+}
+
+@media screen and (max-width: 800px){
+	.character{
+		height: 30vh;
+		width: 30vh;
+		margin-left: 10vw;
+}
+}
