@@ -1,0 +1,75 @@
+html{
+	height: 100vh;
+	max-width: 100vw;
+}
+
+body{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+.menu{
+	height: 10vh;
+	width: 100%;
+	background-color: orange;
+}
+
+.main{
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.character{
+	height: calc(100%/2);
+	width: calc(100%/3);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: black;
+}
+
+.image{
+	max-width:100%;
+	max-height:100%;
+}
+	
+.shawn{
+	content:url(images/shawn.JPG);
+}
+
+.gus{
+	content:url(images/gus.JPG);
+}
+
+.lassiter{
+	content:url(images/lassiter.JPG);
+}
+
+.juliet{
+	content:url(images/juliet.JPG);
+}
+
+.karen{
+	content:url(images/karen.JPG);
+}
+
+.henry{
+	content:url(images/henry.JPG);
+}
+
+/*Resize image with div size https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container*/
+@media screen and (max-width: 800px){
+	.main{
+		justify-content: center;
+	}
+	.character{
+		height: 60vw;
+		width: 60vw;
+		margin-top: 5vh;
+	}
+}

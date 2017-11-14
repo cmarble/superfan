@@ -1,0 +1,49 @@
+html{
+	height: 100vh;
+	max-width: 100vw;
+}
+
+body{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+.menu{
+	height: 10vh;
+	width: 100%;
+	background-color: orange;
+}
+
+.main{
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.character{
+	height: calc(100%/2);
+	width: calc(100%/3);
+}
+
+.green{
+	background-color: green;
+}
+
+.white {
+	background-color: blue;
+}
+
+@media screen and (max-width: 800px){
+	.main{
+		justify-content: center;
+	}
+	.character{
+		height: 60vw;
+		width: 60vw;
+		margin-top: 5vh;
+}
+}
