@@ -39,27 +39,27 @@ body{
 }
 	
 .shawn{
-	content:url(images/shawn.JPG);
+	content:url(images/shawn.jpg);
 }
 
 .gus{
-	content:url(images/gus.JPG);
+	content:url(images/gus.jpg);
 }
 
 .lassiter{
-	content:url(images/lassiter.JPG);
+	content:url(images/lassiter.jpg);
 }
 
 .juliet{
-	content:url(images/juliet.JPG);
+	content:url(images/juliet.jpg);
 }
 
 .karen{
-	content:url(images/karen.JPG);
+	content:url(images/karen.jpg);
 }
 
 .henry{
-	content:url(images/henry.JPG);
+	content:url(images/henry.jpg);
 }
 
 /*Resize image with div size https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container*/
